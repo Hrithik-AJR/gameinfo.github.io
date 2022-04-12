@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Saira+Condensed:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="game-cod">
+        <main>
+            <section>
+               <h3 class="title">COD</h3>
+               <p class="pbg-info">Call of Duty is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space. The games were first developed by Infinity Ward, then also by Treyarch and Sledgehammer Games. 
+                </p>
+                   <p class="pbg-info1">Call of Duty is a first-person shooter video game based on id Tech 3, and was released on October 29, 2003. The game was developed by Infinity Ward and published by Activision. The game simulates the infantry and combined arms warfare of World War II.
+                    </p>
+                    <div >
+                        <p class="pbg-btn">Click on Play Button to Play The Theme Song of COD</p>
+                        <img class="img-pbg"   src="images/play.png" id="ply">
+                    </div>
+                    <audio src="sound/y2mate.com - Call Of Duty main theme.mp3" type="audio//mp3" id="pubg-song"></audio>
+                    <script>
+                        var pubg_song =document.getElementById("pubg-song");
+                        var play = document.getElementById("ply");
+                        play.onclick= function(){
+                            if(pubg_song.paused){
+                                pubg_song.play();
+                                play.src = "images/pause.png";
+                            }else{
+                                pubg_song.pause();
+                                play.src = "images/play.png";
+                            }
+                        }
+
+                    </script>
+            </section>
+        </main>
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Saira+Condensed:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="game-pbg">
+        <main>
+            <section>
+               <h3 class="title">PUBG</h3>
+               <p class="pbg-info">PUBG: Battlegrounds also known as PlayerUnknown's Battlegrounds or simply PUBG. 
+                   PUBG is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of Bluehole (current Krafton).
+                </p>
+                   <p class="pbg-info1">PUBG is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people. 
+                       The last person or team alive wins the match.
+                    </p>
+                    <div >
+                        <p class="pbg-btn">Click on Play Button to Play The Theme Song of PUBG</p>
+                        <img class="img-pbg"   src="images/play.png" id="ply">
+                    </div>
+                    <audio src="sound/y2mate.com - PUBG Theme Song 2Scratch Trap Remix  NCS Release.mp3" type="audio//mp3" id="pubg-song"></audio>
+                    <script>
+                        var pubg_song =document.getElementById("pubg-song");
+                        var play = document.getElementById("ply");
+                        play.onclick= function(){
+                            if(pubg_song.paused){
+                                pubg_song.play();
+                                play.src = "images/pause.png";
+                            }else{
+                                pubg_song.pause();
+                                play.src = "images/play.png";
+                            }
+                        }
+
+                    </script>
+            </section>
+        </main>
+    </header>
+    
+</body>
+</html>
