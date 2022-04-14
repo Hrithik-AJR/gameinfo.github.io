@@ -266,7 +266,6 @@ section{
     font-family: 'Acme', sans-serif;
     border-radius: 20px;
 }
-
 .pbg-info1{
     font-weight: 700;
     font-size: 25px;
@@ -280,7 +279,7 @@ section{
     border-radius: 20px;
 }
 
-.title{
+.title-pubg{
     font-size: 45px;
     font-weight: 300;
     font-family: 'Saira Condensed', sans-serif;
@@ -310,6 +309,131 @@ section{
     margin-top: 12px;
     letter-spacing: 2px;
     margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+/*------------------------------cod---------------------------------------------------*/
+.title-cod{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight:bold ;
+    background-color: rgb(255, 76, 160);
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.cod-info{
+    font-weight: 1000;
+    font-size: 22px;
+    width: 650px;
+    background-color:#15570a;
+    color:rgb(255, 238, 57);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    font-family: 'Merienda One', cursive;
+    border-radius: 20px;
+}
+.cod-info1{
+    font-weight: 700;
+    font-size: 22px;
+    width: 650px;
+    margin-top: 20px;
+    background-color:rgb(21, 32, 248);
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    font-family: 'Merienda One', cursive;
+    border-radius: 20px;
+}
+
+/*------------------------------------gta--------------------------*/
+.gta-info{
+    font-weight: 600;
+    font-size: 25px;
+    width: 600px;
+    background-color:rgb(128, 0, 0);
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+}
+
+.gta-info1{
+    font-weight: 700;
+    font-size: 25px;
+    width: 600px;
+    margin-top: 20px;
+    background-color:rgb(87, 244, 255);
+    color:blue;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 rgb(255, 252, 252), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+}
+
+/*------------------------------------amongus--------------------------*/
+.among-info{
+    font-weight: 600;
+    font-size: 25px;
+    width: 600px;
+    background-color:rgb(60, 66, 255);
+    color: yellow;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+}
+
+.among-info1{
+    font-weight: 700;
+    font-size: 25px;
+    width: 600px;
+    margin-top: 20px;
+    background-color:rgb(255, 59, 59);
+    color:rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    text-shadow: -1px -1px 0 rgb(39, 98, 7), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.75;
+    letter-spacing: -1px;
+    font-family: 'Fondamento', cursive;
+    border-radius: 20px;
+}
+
+.title-among{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -4px -4px 0 rgb(255, 58, 58), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.amongus-btn{
+    background: rgb(98, 255, 0);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    margin-top: 12px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.minecraft-btn{
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    font-family: 'Saira Condensed', sans-serif;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    margin-left: 20px;
     margin-right: 50px;
     border-radius: 25px;
 }
